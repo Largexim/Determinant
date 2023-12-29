@@ -15,8 +15,8 @@ int main() {
     int size = 0;
     size = checkSize(fileRead());
     float** matrix = makeMatrix(fileRead());
-    //cout<<determinant_regular(matrix,size);
-    determinant_gassy_elimination(matrix,size);
+    cout<<determinant_regular(matrix,size);
+    //determinant_gassy_elimination(matrix,size);
     return 0;
 }
 string fileRead(){
